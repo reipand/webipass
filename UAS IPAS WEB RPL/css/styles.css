@@ -1,0 +1,24 @@
+/* styles.css */
+
+/* Center the map container */
+.map-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 445px;
+    margin-bottom: 30px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .map-wrap {
+        height: 300px;
+    }
+}
+
+@media (max-width: 480px) {
+    .map-wrap {
+        height: 200px;
+    }
+}
